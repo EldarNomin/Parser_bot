@@ -9,7 +9,7 @@ def get_first_news():
     headers = {
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
     }
-    url = "https://www.securitylab.ru/news/"
+    url = "https://coinmarketcap.com/new/"v
 
     r = requests.get(url=url, headers=headers)
 
